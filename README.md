@@ -1,64 +1,96 @@
-# Mouspike - Coming soon page
-Conceptual and technical prototype (*funtional sketch*).
+# Mouspike - Coming Soon Page (Front-end Prototype)
 
-# Descriprion
-This project is a conceptual and technical prototype for my brand Mouspike this web prototype represents an early functinal "sketch" created before building the official Shopify website.
+# Live Demo
+- **GitHub page (prototype):** https://karis2021.github.io/Mouspike-coming-soon/
+- **Official Coming soon (.uk):** https://mouspike.co.uk/
+- **Alternative domain (.us):** https://mouspike.us/
 
-This page is not the final or official website, it was created as a first step to visually and technically explore how the brand should look, feel, and communicate before launching the full platform.
+# Project Overview
+This project is a conceptual and technical prototype for my brand Mouspike. This web page was created before building the official Shopify website.
 
-The goal of this project was not to sell products yet, but to validate ideas and turn an abstract vision into something real and structured in a coherent vision.
+The goal of this project was not to sell products yet, but to validate ideas and transform an abstract vision into a structured front-end experience while testing early interest.
 
-# Purpose of this project 
-This coming soon page was used to:
+# Purpose 
+This prototype was used to:
 
-Validate the brand identity.
+Explore brand identity and visual language.
 
-Explore page structure and layout.
+Test structure, layout, hierarchy and message clarity.
 
-Define the tone and the visual language.
-
-Test visual hierarchy and message placement.
-
-Create a clear direction before building the full shopify website version.
+Create a direction before building the full Shopify implementation.
 
 This project helped transform ideas into a clear base that could later be improved and rebuilt at a higher level.
 
-# Technologies used
-- HTML
-- CSS
+# Tech Stack
+- HTML5
+- CSS3
 - JavaScript (vanilla)
-- Visual Studio Code (VS code)
-
-this project focuses mainly on front-end structure and design logic.
+- GitHub Pages (deployment)
 
 # Project structure 
-[index.html] Main page structure.
+## Project Structure
+- [index.html] – Main page structure
+- [style.css] – Layout and visual styling
+- [script.js] – Small interactive behavior
+- [assets/] – Images and media files
+- [docs/] – Project documentation and illustration brief
 
-[style.css] Layout and visual styling.
+# Current Status 
+Front-end only.
+The email form does not store data yet (not backend connected). *The back-end email capture system is in a separate repository ( Repo 2)*.
 
-[script.js] Small interactive behavior.
-
-[assets/] Images and media files.
-
-# Current status 
-This is a front-end only project, the email form does not store data yet, and its not backend connected at this stage, the focused is on design, structure, and clarity of the brand message.
-(*The backend logic for email collection is planned and explained separately in another repository.*)
-
-# My role and learning 
-This project was fully ideated, structured, and implemented by me as part of my personal brand development process. I was responsible for defining the concept, structure, visual direction, programed and how the ideas were translated into a working front-end prototype.
+# My Role and Learning 
+This project was fully ideated, structured, and implemented by me as part of my personal brand development process. I was responsible for defining the concept, structure, visual direction, programming, and how the ideas were translated into a working front-end prototype.
 
 Through this project, I improved my understanding of front-end structure, visual hierarchy, and how design decisions turn into real technical implementation. It also helped me understand how early prototypes can guide better decisions before building a full platform.
 
-# What exists today
-The public coming soon page which is currently active at shopify store (under development) that website has official custom domains, and brand identity already defined and registered.
-This project works as a bridge between the idea phase and the full implementation phase.
+# What Exists Today
+The public coming soon page, which is currently active on the Shopify store (under development), using the official registered domains. This repository represents the conceptual and technical bridge between the idea phase and the full platform implementation.
 
-# What come next
+# What Comes Next
 In future stages, this project will evolve into:
 
-A future full rebuilt with a stronger technical foundation, deeper storytelling and brand lore, and added more interactive elements but the most important stage will be a future AI assitant concept to help users understand the brand universe, (concept idea only, not a technical promise at this stage).
+A future full rebuilt with a stronger technical foundation, deeper storytelling and brand lore, and added more interactive elements but the most important stage will be a future AI assistant concept to help users understand the brand universe.
 
-# Links
-- **GitHub coming soon page:** https://karis2021.github.io/Mouspike-coming-soon/
-- **Official coming soon website (.uk):** https://mouspike.co.uk/
-- **Alternative domain (.us):** https://mouspike.us/
+# Professional Illustration Brief
+Brief (PDF):
+[docs/brief/Mouspike-LandingPage-Illustration-Brief-2025.pdf]
+(*Note: GitHub may not preview this PDF correctly. Please download to view the full document.*)
+
+
+As part of the coming soon page development, a detailed professional illustration brief
+was created for me to communicate technical, visual, and narrative requirements to an external illustrator.
+
+The brief defines:
+- Visual mood and symbolic direction
+- Technical constraints for a vertical scrolling web illustration
+- Layering requirements for future animation and responsive adaptation
+- Clear separation between conceptual reference and final artistic freedom
+
+This document reflects how abstract brand ideas were translated into concrete,
+technical instructions suitable for real-world production.
+
+A professional illustrator later translated this conceptual direction into cohesive, original artwork, refining composition, consistency, textures and visual storytelling.
+
+The design direction, page structure, visual hierarchy and narrative flow of the landing page were fully defined by me.
+
+# Concept Exploration (AI-assited sketches)
+Concept:
+[assets/concept/sketch-01...06]
+
+Early visual sketches were generated using AI tools as part of the
+concept exploration phase.
+
+These images were not used as final assets.
+They served to:
+- Test mood, composition, and symbolic elements
+- Explore atmosphere and visual hierarchy
+- Support communication with the illustrator during the briefing phase
+
+- Concept exploration [sketch-01,02:] minimal identity and messaging
+- Concept exploration [sketch-03,04:] introduction of narrative elements
+- Concept exploration [sketch-05,06:] refined atmosphere and final direction
+
+AI-generated images were used only as a visual exploration tool during early ideation. I provided detailed instructions, iterations and refinements to guide these explorations. These images were never considered final assets.
+
+
