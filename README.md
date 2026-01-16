@@ -1,7 +1,7 @@
 # Mouspike - Coming Soon Page (Front-end Prototype)
 
 # Live Demo
-- **GitHub page (prototype):** https://karis2021.github.io/Mouspike-coming-soon/
+- **GitHub page (prototype):** https://karis2021.github.io/Mouspike-coming-soon-frontend/
 - **Official Coming soon (.uk):** https://mouspike.co.uk/
 - **Alternative domain (.us):** https://mouspike.us/
 
@@ -28,7 +28,6 @@ This project helped transform ideas into a clear base that could later be improv
 - GitHub Pages (deployment)
 
 # Project structure 
-## Project Structure
 - [index.html](index.html) – Main page structure
 - [style.css](style.css) – Layout and visual styling
 - [script.js](script.js) – Small interactive behavior
@@ -36,8 +35,11 @@ This project helped transform ideas into a clear base that could later be improv
 - [docs/](docs/) – Project documentation and illustration brief
 
 # Current Status 
-Front-end only.
-The email form does not store data yet (not backend connected). *The back-end email capture system is in a separate repository ( Repo 2)*.
+This repository represents the front-end prototype.
+The email form is connected to a separate backend system for early access email capture, persistence, and notifications.  
+The back-end implementation is documented and deployed in a separate repository (Repo 2(Mouspike-early-access-backend
+)).
+Backend repository: [Backend Repository](https://github.com/karis2021/Mouspike-early-access-backend)
 
 # My Role and Learning 
 This project was fully ideated, structured, and implemented by me as part of my personal brand development process. I was responsible for defining the concept, structure, visual direction, programming, and how the ideas were translated into a working front-end prototype.
