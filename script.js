@@ -1,24 +1,39 @@
 const yearEl = document.getElementById("year");
 yearEl.textContent = new Date().getFullYear();
-
-const form = document.querySelector("form");
+const form = document.getElementById("earlyAccessForm");
 const emailInput = document.getElementById("email");
 const msg = document.getElementById("formMsg");
+const API_BASE_URL = "https://mouspike-early-access-backend.onrender.com";
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
-  const email = emailInput.value.trim();
-  const ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const email = emailInput.value.trim().toLowerCase();
+  if (!email) return;
+  msg.textContent = "Submitting...";
+try {
+  const res = await fetch(`${API_BASE_URL}/signup`,{
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email }),
+  });
 
-  if (!ok) {
-    msg.textContent = "Please enter a valid email.";
-    msg.className = "form-msg error";
-    emailInput.focus();
+  const data = await res.json();
+  if (data.status === "ok") {
+    msg.textContent = "✅ You're in. Welcome to Mouspike Early Access.";
+    emailInput.value = "";
     return;
   }
-
-  msg.textContent = "EARLY ACCESS REQUEST.";
-  msg.className = "form-msg success";
-  form.reset();
+if (data.status === "Exists") {
+  msg.textContent = "⚠️ You're already on the list.";
+  return;
+}
+msg.textContent = "❌ Something went wrong. Try again.";
+} catch (err){
+  console.error(err);
+  msg.textContent = "❌ Backend nor reachable. Is it running?";
+}
 });
+ const submitBtn = document.getElementById("submitBtn");
+  submitBtn.disabled = true;
+  submitBtn.disabled = false;
