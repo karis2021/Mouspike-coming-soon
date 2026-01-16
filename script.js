@@ -10,7 +10,7 @@ form.addEventListener("submit", async (e) => {
 
   const email = emailInput.value.trim().toLowerCase();
   if (!email) return;
-  msg.textContent = "Submit";
+  msg.textContent = "Submited";
 
   try {
     const res = await fetch(`${API_BASE_URL}/signup`, {
