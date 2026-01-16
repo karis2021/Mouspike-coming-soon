@@ -12,13 +12,12 @@ form.addEventListener("submit", async (e) => {
   if (!email) return;
   msg.textContent = "Submitting...";
 
-try {
-  const res = await fetch(`${API_BASE_URL}/signup`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ email }),
-  });
-  clearTimeout(timeout);
+  try {
+    const res = await fetch(`${API_BASE_URL}/signup`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
 
   const data = await res.json();
   if (data.status === "ok") {
@@ -36,6 +35,3 @@ msg.textContent = "❌ Something went wrong. Try again.";
   msg.textContent = "❌ Backend nor reachable. Is it running?";
 }
 });
- const submitBtn = document.getElementById("submitBtn");
-  submitBtn.disabled = true;
-  submitBtn.disabled = false;
